@@ -42,25 +42,25 @@ The application will start and listen on port 8080.
 Endpoint: `GET /api/users`
 This endpoint returns a list of all users in the pet store.
 
-###List Pets
+### List Pets
 Endpoint: `GET /api/pets`
 This endpoint returns a list of all pets in the pet store.
 
-###Create Users
+### Create Users
 Endpoint: `POST /api/users`
 This endpoint creates 10 new users in the pet store, with different
 (random) properties/attributes).
 
-###Create Pets
+### Create Pets
 Endpoint: `POST /api/pets`
 This endpoint creates 10 new pets in the pet store, with different
 (random) properties/attributes).
 
-###Buy Pets
+### Buy Pets
 Endpoint: `PUT /api/users/buy`
 This endpoint goes over all the users and tries to buy a pet of the store for each user.
 
-###History Log
+### History Log
 Endpoint: `GET /api/users/purchase-log`
 This endpoint provides the purchase history of all the buy commands with three columns:
 - Date of execution
